@@ -1,6 +1,6 @@
 # todo-backend
 
-<h3>Setup requires Docker and Docker Compose:</h3>
+<h3>Setup (requires Docker and Docker Compose):</h3>
 
 <p>1. Clone repository</p>
 
