@@ -10,6 +10,7 @@ Setup requires Docker and Docker Compose:
 
 If docker-compose up gives errors running it again usually fixes it.
 <br>
+<br>
 HTTP methods:
 
 -POST /api/v1/signup: Sing up new user
