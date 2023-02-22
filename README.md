@@ -9,15 +9,14 @@ Setup requires Docker and Docker Compose:
 3. run "docker-compose up --build" in the root folder
 
 If docker-compose up gives errors running it again usually fixes it.
-\\
-\\
+
 HTTP methods:
 
--POST /api/v1/signup: Sing up new user
+    -POST /api/v1/signup: Sing up new user
 
--POST /api/v1/signin: Login old user and get jwt
+    -POST /api/v1/signin: Login old user and get jwt
 
--PUT /api/v1/changePassword: Change user's password
+    -PUT /api/v1/changePassword: Change user's password
 
 -GET /api/v1/todos?status=[status]: Get a list of todo items. Optionally, a status query param can be included to return only items of specific status. If not present, return all items
 
