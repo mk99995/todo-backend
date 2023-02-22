@@ -9,7 +9,7 @@ Setup requires Docker and Docker Compose:
 3. run "docker-compose up --build" in the root folder
 
 If docker-compose up gives errors running it again usually fixes it.
-
+<br>
 HTTP methods:
 
 -POST /api/v1/signup: Sing up new user
@@ -22,8 +22,8 @@ HTTP methods:
 
 -POST /api/v1/todos: Create a new todo item
 
--PUT /api/v1/todos/:id: Update a todo item
+-PUT /api/v1/todos/:<zero-width space>id: Update a todo item
 
--DELETE /api/v1/todos/:id: Delete a todo item
+-DELETE /api/v1/todos/:<zero-width space>id: Delete a todo item
 
 I haven't had the time to write errors properly so server crashes sometimes when inadequate request is made. With Nodemon server can easily be restarted by saving some project file.
