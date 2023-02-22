@@ -1,29 +1,30 @@
 # todo-backend
 
-Setup requires Docker and Docker Compose:
+<h3>Setup requires Docker and Docker Compose:</h3>
 
-    1. Clone repository
+<p>1. Clone repository</p>
 
-    2. Add .env file with SECRET to the root folder
+<p>2. Add .env file with SECRET to the root folder</p>
 
-    3. Run "docker-compose up --build" in the root folder
+<p>3. Run "docker-compose up --build" in the root folder</p>
 
-    If docker-compose up gives errors running it again usually fixes it.
+<p>If docker-compose up gives errors running it again usually fixes it.</p>
+<br/>
 
-HTTP methods:
+<h3>HTTP methods:</h3>
 
-    -POST /api/v1/signup: Sing up new user
+<p>-POST /api/v1/signup: Sing up new user</p>
 
-    -POST /api/v1/signin: Login old user and get jwt
+<p>-POST /api/v1/signin: Login old user and get jwt</p>
 
-    -PUT /api/v1/changePassword: Change user's password
+<p>-PUT /api/v1/changePassword: Change user's password</p>
 
-    -GET /api/v1/todos?status=[status]: Get a list of todo items. Optionally, a status query param can be included to return only items of specific status. If not present, return all items
+<p>-GET /api/v1/todos?status=[status]: Get a list of todo items</p>
 
-    -POST /api/v1/todos: Create a new todo item
+<p>-POST /api/v1/todos: Create a new todo item</p>
 
-    -PUT /api/v1/todos/:<zero-width space>id: Update a todo item
+<p>-PUT /api/v1/todos/:<zero-width space>id: Update a todo item</p>
 
-    -DELETE /api/v1/todos/:<zero-width space>id: Delete a todo item
+<p>-DELETE /api/v1/todos/:<zero-width space>id: Delete a todo item</p>
 
-I haven't had the time to write errors properly so server crashes sometimes when inadequate request is made. With Nodemon server can easily be restarted by saving some project file.
+<p>I haven't had the time to write errors properly so server crashes sometimes when inadequate request is made. With Nodemon server can easily be restarted by saving some project file.</p>
