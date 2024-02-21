@@ -27,4 +27,4 @@
 
 <p>-DELETE /api/v1/todos/:<zero-width space>id: Delete a todo item</p>
 
-<p>I haven't had the time to write errors properly so server crashes sometimes when inadequate request is made. With Nodemon server can easily be restarted by saving some project file.</p>
+<p>With Nodemon server can easily be restarted by saving some project file.</p>
